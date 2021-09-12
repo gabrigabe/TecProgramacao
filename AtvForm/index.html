@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <meta charset = UTF-8>
+        <title>Formulario</title>
+        <script>
+        function clicouBotao() {
+            //elementoParagrafo = document.createElement("p");
+            //elementoParagrafo.innerHTML = "Texto do paragrafo";
+           var escondido = document.getElementById("form2");
+           escondido.style.display = "form2";
+
+
+        }
+
+        </script>
+    </head>
+
+    <body>
+        <div id = "form1">
+            <form>
+                <label>Nome :</label>
+                <input name = "Nome" type="text"/> 
+                <br/>
+                <label>Senha:</label>
+                <input senha = "Some" type="password"/> 
+                <br/>
+                <button onclick ="clicouBotao()" type="submit"> Enviar </button>
+                <input type="reset" value="Limpar os campos"/>
+            </form>
+        </div>
+
+        <div id = "form2" hidden>
+            <p>aaaaaaaaaaaaa</p>>
+            
+        </div>
+    </body>
+</html>
